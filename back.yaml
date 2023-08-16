@@ -1,4 +1,4 @@
-# build-version: 76
+# build-version: 77
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
         - name: back
-          image: kjk7212/release_note_back:76
+          image: kjk7212/release_note_back:77
           imagePullPolicy: Always
           ports:
             - name: back
