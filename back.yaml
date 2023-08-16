@@ -42,5 +42,5 @@ spec:
                   - key: app
                     operator: In
                     values:
-                      - front
+                      - back
               topologyKey: kubernetes.io/hostname
